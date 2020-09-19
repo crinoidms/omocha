@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: ‘Noto Sans TC’, sans-serif;
+    color: #555;
+    /* font-weight: 600; */
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+.router-link, a.nav-link {
+  padding: 0;
+  
+}
+a {
+  color: #555;
+  text-decoration: none;
+  font-family: ‘Noto Sans TC’, sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+}
+a:hover {
+  color: #555;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar-brand {
+    width: 149px;
+    height: 40px;
+    background-image: url(./omocha_logo-01.svg);
+}
+.nav-item a {
+    /* color: #ff6666 !important; */
+    font-weight: 600;
+}
+.intro-wrap {
+    padding: 8vw 0;
+}
+.intro {
+    border-top: 2px solid #ff6666;
+    border-bottom: 2px solid #ff6666;
+    color: #ff6666;
+    font-size: 18px;
+}
+.redcowGif {
+    width: 200px;
+}
+.redcowGif img {
+    max-width: 100%;
+}
+.present {
+    background-image: url(./img/bg-wave-light.jpg);
+}
+.card {
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: -1px 2px 5px #ccc;
+}
+.card img {
+    max-width: 70%;
+    transition: 1s;
+}
+.card:hover img {
+  transform: scale(1.1, 1.1);
+}
+
+.present-title {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+}
+.section-title {
+    text-align: center;
+    padding: 8px 0;
+    color: #ff6666;
+    font-weight: 600;
+}
+.product-line {
+    padding: 8vw 0;
+}
+.product-line div {
+  transition: 1s;
+  cursor: pointer;
+}
+.product-line div img {
+    max-width: 70%;
+}
+.product-line div:hover {
+  transition: 1s;
+  box-shadow: 0px 2px 2px #ccc;
+
+}
+.animate__animated.animate__pulse:hover {
+  --animate-duration: 2s;
+}
+.footer-brand {
+    width: 185px;
+    height: 50px;
+    background-image: url(./omocha_logo-01.svg);
+}
+.rounded-social-buttons {
+    text-align: center;
+  }
+  
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 0.9em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-youtube, .fa-instagram {
+    font-size: 18px;
+  }
+  
+  .rounded-social-buttons .social-button.facebook {
+    background: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.twitter {
+    background: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+    color: #55acee;
+    background: #fefefe;
+    border-color: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.youtube {
+    background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
+
+
+  .section-banner {
+      width: 100%;
+      height: 100px;
+      background-image: url(./img/section01.jpg);
+  }
+  .section-banner h5 {
+      background-color: rgba(255, 255, 255, .8);
+      padding: 5px 20px;
+  }
+  .page {
+    width: 100%;
+    position: absolute; 
+    bottom:-54px;
+  }
+  .sidebar div{
+    text-align: left;
+    padding: 5px 10px;
+  }
+  .sideBtn:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ff6666;
+  }
+  .breadcrumb-item {
+     
+    font-weight:400;
+    color:#555;
+  }
