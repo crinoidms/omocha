@@ -72,8 +72,8 @@ export default {
   },
   methods: {
     checkLogIn() {
+      this.token = document.cookie.replace(/(?:(?:^|.*;\s*)token\s*=\s*([^;]*).*$)|^.*$/, '$1');
       if (this.token) {
-        // console.log(this.token);
         this.getCarts();
       } else {
         this.$router.push('/login');
